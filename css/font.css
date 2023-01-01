@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?e3no4k');
+  src:  url('../fonts/icomoon.eot?e3no4k#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?e3no4k') format('truetype'),
+    url('../fonts/icomoon.woff?e3no4k') format('woff'),
+    url('../fonts/icomoon.svg?e3no4k#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-courseF:before {
+  content: "\e906";
+}
+.icon-summaryF:before {
+  content: "\e900";
+}
+.icon-educationF:before {
+  content: "\e901";
+}
+.icon-skillsF:before {
+  content: "\e902";
+}
+.icon-expirienceF:before {
+  content: "\e903";
+}
+.icon-languageF:before {
+  content: "\e904";
+}
+.icon-contactsF:before {
+  content: "\e905";
+}

@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  list-style: none;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  background: #1f2326;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.top1 {
+  margin-top: 30px;
+}
+
+.top2 {
+  margin-top: 15px;
+}
+
+.smalltop {
+  margin-top: 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #222;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px 50px 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.buttonCreate {
+  font-weight: 600;
+  width: 160px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #333;
+  transition: 0.3s;
+  margin-bottom: 50px;
+}
+
+.buttonCreate:hover {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.CV {
+  box-shadow: 0px 0px 26px 16px rgba(0, 0, 0, 0.05);
+  display: flex;
+  height: 800px;
+  width: 700px;
+  background-color: #333;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.CV__left-block, .CV__right-block {
+  padding: 30px;
+}
+
+.left {
+  background: black;
+  color: white;
+  width: 30%;
+  height: 100%;
+}
+.left__face {
+  width: 100%;
+  height: 200px;
+  border: 1px solid white;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.left__face img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.left__name {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.left__contacts {
+  font-size: 14px;
+}
+.left__title {
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid white;
+}
+.left__address, .left__phone, .left__email {
+  font-weight: 700;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.left__languages {
+  font-weight: 700;
+}
+.left__languages-list {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.left__languages-list li {
+  font-weight: normal;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.right {
+  background: white;
+  width: 70%;
+  height: 100%;
+}
+.right__content {
+  padding: 10px 0px;
+  font-size: 14px;
+}
+.right__list li {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.right__title {
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+}
+.right__information {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.education, .work, .skills, .courses {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
